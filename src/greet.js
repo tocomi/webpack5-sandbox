@@ -1,4 +1,4 @@
-export const goodMorning = () => {
+export const unusedFunction = () => {
   console.log('Good morning.')
 }
 
