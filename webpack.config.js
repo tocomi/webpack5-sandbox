@@ -3,6 +3,9 @@ module.exports = {
   output: {
     path: `${__dirname}/dist`,
     filename: 'main.js',
+		environment: {
+      arrowFunction: false
+    },
   },
   module: {
 		rules: [
