@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build:dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode development",
+    "build:production": "webpack --mode production"
   },
   "dependencies": {
     "caniuse-lite": "^1.0.30001543"
