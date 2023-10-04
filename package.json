@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode development",
-    "build:production": "webpack --mode production"
+    "build:production": "webpack --mode production",
+    "babel": "babel ./src -d babel-output"
   },
   "dependencies": {
     "@babel/runtime": "^7.23.1",
@@ -15,6 +16,7 @@
     "regenerator-runtime": "^0.14.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.23.0",
     "@babel/core": "^7.16.5",
     "@babel/plugin-transform-runtime": "^7.22.15",
     "@babel/preset-env": "^7.16.5",
