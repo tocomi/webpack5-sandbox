@@ -8,8 +8,8 @@
     "build:production": "webpack --mode production"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
-    "caniuse-lite": "^1.0.30001543"
+    "caniuse-lite": "^1.0.30001543",
+    "regenerator-runtime": "^0.14.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
