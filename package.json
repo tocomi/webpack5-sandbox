@@ -8,8 +8,10 @@
     "build:production": "webpack --mode production"
   },
   "dependencies": {
-    "@babel/runtime-corejs3": "^7.23.1",
+    "@babel/runtime": "^7.23.1",
     "caniuse-lite": "^1.0.30001543",
+    "core-js": "3.33.0",
+    "core-js-pure": "3.33.0",
     "regenerator-runtime": "^0.14.0"
   },
   "devDependencies": {
@@ -18,7 +20,6 @@
     "@babel/preset-env": "^7.16.5",
     "babel-loader": "^8.2.3",
     "babel-plugin-polyfill-corejs3": "^0.8.4",
-    "core-js": "3.33.0",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1"
   },
