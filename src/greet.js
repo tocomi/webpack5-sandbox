@@ -1,15 +1,15 @@
 export const unusedFunction = () => {
-  console.log('Good morning.')
-}
+  console.log('Good morning.');
+};
 
 export const hello = ({ name }) => {
-  console.log(`Hello ${name}`)
-}
+  console.log(`Hello ${name}`);
+};
 
 export const usePromise = ({ message }) => {
   return new Promise((resolve, _reject) => {
     setTimeout(() => {
       resolve(message);
-    }, 300)
-  })
-}
+    }, 300);
+  });
+};
